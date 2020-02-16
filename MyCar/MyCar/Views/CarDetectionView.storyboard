@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JsM-j1-shx">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Car Detection View Controller-->
+        <scene sceneID="xY9-db-rMj">
+            <objects>
+                <viewController id="JsM-j1-shx" customClass="CarDetectionViewController" customModule="My_Car" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yg7-2q-vVt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHM-TR-9d3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                            <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1NW-FT-6z6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="83"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uf6-AQ-9Ze">
+                                        <rect key="frame" x="50" y="34.333333333333329" width="314" height="14.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uf6-AQ-9Ze" secondAttribute="trailing" constant="50" id="Wa4-Jp-BCR"/>
+                                    <constraint firstItem="uf6-AQ-9Ze" firstAttribute="leading" secondItem="1NW-FT-6z6" secondAttribute="leading" constant="50" id="Wqh-R4-6m7"/>
+                                    <constraint firstItem="uf6-AQ-9Ze" firstAttribute="centerY" secondItem="1NW-FT-6z6" secondAttribute="centerY" id="k0D-vx-B2a"/>
+                                    <constraint firstAttribute="height" constant="83" id="kFj-TV-i7S"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1NW-FT-6z6" firstAttribute="top" secondItem="w1M-J9-mEo" secondAttribute="top" id="CbA-Ov-kPh"/>
+                            <constraint firstItem="1NW-FT-6z6" firstAttribute="leading" secondItem="w1M-J9-mEo" secondAttribute="leading" id="Fab-Uf-do7"/>
+                            <constraint firstItem="jHM-TR-9d3" firstAttribute="top" secondItem="yg7-2q-vVt" secondAttribute="top" id="J5Z-s1-Xhd"/>
+                            <constraint firstItem="1NW-FT-6z6" firstAttribute="trailing" secondItem="w1M-J9-mEo" secondAttribute="trailing" id="JIs-8X-jO6"/>
+                            <constraint firstItem="jHM-TR-9d3" firstAttribute="leading" secondItem="w1M-J9-mEo" secondAttribute="leading" id="Ko0-66-yYz"/>
+                            <constraint firstItem="jHM-TR-9d3" firstAttribute="trailing" secondItem="w1M-J9-mEo" secondAttribute="trailing" id="YiB-l4-P7k"/>
+                            <constraint firstAttribute="bottom" secondItem="jHM-TR-9d3" secondAttribute="bottom" id="xQP-zl-rbt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w1M-J9-mEo"/>
+                    </view>
+                    <connections>
+                        <outlet property="debugLabel" destination="uf6-AQ-9Ze" id="r2T-Z5-dme"/>
+                        <outlet property="sceneView" destination="jHM-TR-9d3" id="fnq-Y1-ajT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWv-xy-zG0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-860.86956521739137" y="-534.375"/>
+        </scene>
+    </scenes>
+</document>

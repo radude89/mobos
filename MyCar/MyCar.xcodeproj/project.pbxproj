@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7200A9023F8AE1F00B8B175 /* ToyCarsImageClassifier_v2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F7200A8F23F8AE1E00B8B175 /* ToyCarsImageClassifier_v2.mlmodel */; };
 		F7733A7923F26C2700F3E6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7733A7823F26C2700F3E6C5 /* AppDelegate.swift */; };
 		F7733A7B23F26C2700F3E6C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7733A7A23F26C2700F3E6C5 /* SceneDelegate.swift */; };
 		F7733A7D23F26C2700F3E6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7733A7C23F26C2700F3E6C5 /* ContentView.swift */; };
 		F7733A7F23F26C2900F3E6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7733A7E23F26C2900F3E6C5 /* Assets.xcassets */; };
 		F7733A8223F26C2900F3E6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7733A8123F26C2900F3E6C5 /* Preview Assets.xcassets */; };
 		F7733A8523F26C2900F3E6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7733A8323F26C2900F3E6C5 /* LaunchScreen.storyboard */; };
+		F782CCF723F923A30085DF2A /* MyCarsBase.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F782CCF623F923A30085DF2A /* MyCarsBase.mlmodel */; };
+		F782CCF923F923A70085DF2A /* MyCarsUpdatableModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F782CCF823F923A70085DF2A /* MyCarsUpdatableModel.mlmodel */; };
+		F7C7508523F3FDA6003CA1A1 /* CarDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7508423F3FDA6003CA1A1 /* CarDetectionViewController.swift */; };
+		F7C7508923F45371003CA1A1 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7508823F45371003CA1A1 /* ImageUtils.swift */; };
+		F7C7508D23F459F7003CA1A1 /* CarDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7508C23F459F7003CA1A1 /* CarDetectionView.swift */; };
+		F7F5ECA823F517BF00B83BB5 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F5ECA723F517BF00B83BB5 /* Trainer.swift */; };
+		F7F5ECAA23F51D5500B83BB5 /* ModelUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F5ECA923F51D5500B83BB5 /* ModelUpdater.swift */; };
+		F7F5ECB023F5917C00B83BB5 /* CarDetectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5ECAF23F5917C00B83BB5 /* CarDetectionView.storyboard */; };
+		F7F5ECB323F592DA00B83BB5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F5ECB223F592DA00B83BB5 /* Car.swift */; };
+		F7F5ECB523F5931100B83BB5 /* MLModelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F5ECB423F5931100B83BB5 /* MLModelHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7733A7523F26C2700F3E6C5 /* MyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7200A8F23F8AE1E00B8B175 /* ToyCarsImageClassifier_v2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ToyCarsImageClassifier_v2.mlmodel; sourceTree = "<group>"; };
+		F7733A7523F26C2700F3E6C5 /* My Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7733A7823F26C2700F3E6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7733A7A23F26C2700F3E6C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7733A7C23F26C2700F3E6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		F7733A8123F26C2900F3E6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7733A8423F26C2900F3E6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7733A8623F26C2900F3E6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F782CCF623F923A30085DF2A /* MyCarsBase.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyCarsBase.mlmodel; sourceTree = "<group>"; };
+		F782CCF823F923A70085DF2A /* MyCarsUpdatableModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyCarsUpdatableModel.mlmodel; sourceTree = "<group>"; };
+		F7C7508423F3FDA6003CA1A1 /* CarDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetectionViewController.swift; sourceTree = "<group>"; };
+		F7C7508823F45371003CA1A1 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		F7C7508C23F459F7003CA1A1 /* CarDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetectionView.swift; sourceTree = "<group>"; };
+		F7F5ECA723F517BF00B83BB5 /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		F7F5ECA923F51D5500B83BB5 /* ModelUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelUpdater.swift; sourceTree = "<group>"; };
+		F7F5ECAF23F5917C00B83BB5 /* CarDetectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDetectionView.storyboard; sourceTree = "<group>"; };
+		F7F5ECB223F592DA00B83BB5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F7F5ECB423F5931100B83BB5 /* MLModelHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLModelHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +70,7 @@
 		F7733A7623F26C2700F3E6C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7733A7523F26C2700F3E6C5 /* MyCar.app */,
+				F7733A7523F26C2700F3E6C5 /* My Car.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +78,11 @@
 		F7733A7723F26C2700F3E6C5 /* MyCar */ = {
 			isa = PBXGroup;
 			children = (
-				F7733A7823F26C2700F3E6C5 /* AppDelegate.swift */,
-				F7733A7A23F26C2700F3E6C5 /* SceneDelegate.swift */,
-				F7733A7C23F26C2700F3E6C5 /* ContentView.swift */,
-				F7733A7E23F26C2900F3E6C5 /* Assets.xcassets */,
-				F7733A8323F26C2900F3E6C5 /* LaunchScreen.storyboard */,
-				F7733A8623F26C2900F3E6C5 /* Info.plist */,
+				F7F5ECAB23F5902800B83BB5 /* Application */,
+				F7F5ECAC23F5907400B83BB5 /* MLModels */,
+				F7F5ECAD23F5911800B83BB5 /* Views */,
+				F7F5ECB123F5919D00B83BB5 /* Models */,
+				F7F5ECAE23F5915400B83BB5 /* Supporting files */,
 				F7733A8023F26C2900F3E6C5 /* Preview Content */,
 			);
 			path = MyCar;
@@ -75,12 +96,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F7F5ECAB23F5902800B83BB5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F7733A7823F26C2700F3E6C5 /* AppDelegate.swift */,
+				F7733A7A23F26C2700F3E6C5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F7F5ECAC23F5907400B83BB5 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				F782CCF623F923A30085DF2A /* MyCarsBase.mlmodel */,
+				F782CCF823F923A70085DF2A /* MyCarsUpdatableModel.mlmodel */,
+				F7200A8F23F8AE1E00B8B175 /* ToyCarsImageClassifier_v2.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		F7F5ECAD23F5911800B83BB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7733A7C23F26C2700F3E6C5 /* ContentView.swift */,
+				F7C7508C23F459F7003CA1A1 /* CarDetectionView.swift */,
+				F7C7508423F3FDA6003CA1A1 /* CarDetectionViewController.swift */,
+				F7F5ECAF23F5917C00B83BB5 /* CarDetectionView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7F5ECAE23F5915400B83BB5 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				F7733A8623F26C2900F3E6C5 /* Info.plist */,
+				F7733A7E23F26C2900F3E6C5 /* Assets.xcassets */,
+				F7733A8323F26C2900F3E6C5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F7F5ECB123F5919D00B83BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5ECB223F592DA00B83BB5 /* Car.swift */,
+				F7F5ECB423F5931100B83BB5 /* MLModelHandler.swift */,
+				F7F5ECA923F51D5500B83BB5 /* ModelUpdater.swift */,
+				F7F5ECA723F517BF00B83BB5 /* Trainer.swift */,
+				F7C7508823F45371003CA1A1 /* ImageUtils.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7733A7423F26C2700F3E6C5 /* MyCar */ = {
+		F7733A7423F26C2700F3E6C5 /* My Car */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7733A8923F26C2900F3E6C5 /* Build configuration list for PBXNativeTarget "MyCar" */;
+			buildConfigurationList = F7733A8923F26C2900F3E6C5 /* Build configuration list for PBXNativeTarget "My Car" */;
 			buildPhases = (
 				F7733A7123F26C2700F3E6C5 /* Sources */,
 				F7733A7223F26C2700F3E6C5 /* Frameworks */,
@@ -90,9 +163,9 @@
 			);
 			dependencies = (
 			);
-			name = MyCar;
+			name = "My Car";
 			productName = MyCar;
-			productReference = F7733A7523F26C2700F3E6C5 /* MyCar.app */;
+			productReference = F7733A7523F26C2700F3E6C5 /* My Car.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7733A7423F26C2700F3E6C5 /* MyCar */,
+				F7733A7423F26C2700F3E6C5 /* My Car */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +209,7 @@
 				F7733A8523F26C2900F3E6C5 /* LaunchScreen.storyboard in Resources */,
 				F7733A8223F26C2900F3E6C5 /* Preview Assets.xcassets in Resources */,
 				F7733A7F23F26C2900F3E6C5 /* Assets.xcassets in Resources */,
+				F7F5ECB023F5917C00B83BB5 /* CarDetectionView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F5ECAA23F51D5500B83BB5 /* ModelUpdater.swift in Sources */,
+				F7F5ECA823F517BF00B83BB5 /* Trainer.swift in Sources */,
+				F7F5ECB323F592DA00B83BB5 /* Car.swift in Sources */,
+				F7C7508D23F459F7003CA1A1 /* CarDetectionView.swift in Sources */,
 				F7733A7923F26C2700F3E6C5 /* AppDelegate.swift in Sources */,
 				F7733A7B23F26C2700F3E6C5 /* SceneDelegate.swift in Sources */,
+				F7C7508523F3FDA6003CA1A1 /* CarDetectionViewController.swift in Sources */,
+				F7F5ECB523F5931100B83BB5 /* MLModelHandler.swift in Sources */,
+				F782CCF723F923A30085DF2A /* MyCarsBase.mlmodel in Sources */,
+				F7200A9023F8AE1F00B8B175 /* ToyCarsImageClassifier_v2.mlmodel in Sources */,
 				F7733A7D23F26C2700F3E6C5 /* ContentView.swift in Sources */,
+				F782CCF923F923A70085DF2A /* MyCarsUpdatableModel.mlmodel in Sources */,
+				F7C7508923F45371003CA1A1 /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,8 +370,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCar/Preview Content\"";
+				DEVELOPMENT_TEAM = 42L6GB6DU6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCar/Info.plist;
+				INFOPLIST_FILE = "MyCar/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +391,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCar/Preview Content\"";
+				DEVELOPMENT_TEAM = 42L6GB6DU6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCar/Info.plist;
+				INFOPLIST_FILE = "MyCar/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7733A8923F26C2900F3E6C5 /* Build configuration list for PBXNativeTarget "MyCar" */ = {
+		F7733A8923F26C2900F3E6C5 /* Build configuration list for PBXNativeTarget "My Car" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7733A8A23F26C2900F3E6C5 /* Debug */,
